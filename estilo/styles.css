@@ -1,0 +1,19 @@
+body {
+    background: radial-gradient(circle at 50% 50%, #16156b, #3d1266);
+}
+
+.navbar-brand {
+    color: #fbff14;
+}
+
+.navbar-text {
+    color: #fbff14;
+}
+
+label {
+    color: #fbff14;
+}
+
+#copyright {
+    color: #fbff14;
+}
