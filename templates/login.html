@@ -1,0 +1,22 @@
+{% extends "loglay.html" %}
+{% block title %}Login{% endblock %}
+
+{% block loglay %}
+  <br><br><br>
+  <main class="container py-5 text-center">
+    <form action="/login" method="post">
+        <div class="mb-3">
+            <input autocomplete="off" autofocus class="form-control mx-auto w-auto" name="username" placeholder="Username" type="text">
+        </div>
+        <div class="mb-3">
+            <input class="form-control mx-auto w-auto" name="password" placeholder="Password" type="password">
+        </div>
+        <button class="btn btn-warning" type="submit">Log In</button>
+    </form>
+  </main>
+  <footer id="copyright" class="text-center py-4">
+    <p>Dont have an account yet?</p>
+    <button a type="button" class="btn btn-outline-warning btn-sm">
+      <a href="/register">Register</a>
+    </button>
+  {% endblock %}

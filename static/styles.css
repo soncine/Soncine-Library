@@ -17,3 +17,14 @@ label {
 #copyright {
     color: #fbff14;
 }
+
+#msgrg {
+    color: #fbff14;
+}
+
+/* Remove sublinhado e cor azul dos links dentro dos botões */
+button a,
+.btn a {
+    text-decoration: none;
+    color: inherit;
+}
