@@ -21,4 +21,9 @@
         <button class="btn btn-warning" type="submit">Register</button>
     </form>
   </main>
+  {% if error %}
+<script>
+    alert("{{ error }}");
+</script>
+{% endif %}
   {% endblock %}
